@@ -15,7 +15,7 @@ const BlogCard = () => {
           năm xuất hiện với vai trò là nhân vật chính của Fear TWD từ mùa thứ
           tư, Lennie James kể từ tập phim "All I See is Red" sẽ không còn xuất
         </p>
-        <Link to="/blog/:id" className="button">
+        <Link to="/blogs/:id" className="button">
           Read More
         </Link>
       </div>
