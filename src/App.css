@@ -54,7 +54,7 @@ a {
   color: white;
   font-size: 14px;
   padding: 13px 23px;
-  border-radius: 15px;
+  border-radius: 30px;
 }
 
 .button:hover {
@@ -642,12 +642,13 @@ footer .input-group-text {
   color: #1c1c1b;
 }
 
-.auth-card .signup {
+.signup {
   background-color: #232f3e;
   color: white;
+  border: none;
 }
 
-.auth-card .signup:hover {
+.signup:hover {
   background-color: #febd69;
   color: #131921;
 }
@@ -706,6 +707,81 @@ footer .input-group-text {
 }
 
 .review p {
+  font-size: 14px;
+  color: #777777;
+}
+
+.main-product-image {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.main-product-image > div {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+#image-magnifyer {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.other-product-images {
+  background-color: white;
+  padding: 20px;
+}
+
+.other-product-images > div {
+  padding: 20px;
+  width: 48%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.main-product-details {
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.main-product-details h3.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1c1c1b;
+  margin-bottom: 10px;
+}
+
+.main-product-details p.price {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main-product-wrapper a.review-btn,
+.t-review {
+  color: #777777;
+  font-size: 13px;
+}
+
+.product-heading {
+  font-size: 16px;
+  color: #1c1c1b;
+  margin-bottom: 0px;
+}
+
+.product-data {
+  font-size: 13px;
+  color: #777777;
+  margin-bottom: 0px;
+}
+
+.main-product-details a {
   font-size: 14px;
   color: #777777;
 }
