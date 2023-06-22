@@ -1,6 +1,11 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
+import { AiOutlineHome } from "react-icons/ai";
+import { BiStore } from "react-icons/bi";
+import { FaBlog } from "react-icons/fa";
+import { MdConnectWithoutContact } from "react-icons/md";
+
 const Header = () => {
   return (
     <>
@@ -110,7 +115,7 @@ const Header = () => {
                 <div>
                   <div className="dropdown">
                     <button
-                      className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
+                      className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-10 d-flex align-items-center"
                       type="button"
                       id="dropdownMenuButton1"
                       data-bs-toggle="dropdown"
@@ -145,16 +150,32 @@ const Header = () => {
                 </div>
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
-                    <NavLink className="text-white" to="/">
+                    <NavLink
+                      className="text-white d-flex align-items-center"
+                      to="/"
+                    >
+                      <AiOutlineHome />
                       Home
                     </NavLink>
-                    <NavLink className="text-white" to="/store">
+                    <NavLink
+                      className="text-white d-flex align-items-center"
+                      to="/product"
+                    >
+                      <BiStore />
                       Our Store
                     </NavLink>
-                    <NavLink className="text-white" to="/blogs">
+                    <NavLink
+                      className="text-white d-flex align-items-center"
+                      to="/blogs"
+                    >
+                      <FaBlog />
                       Blogs
                     </NavLink>
-                    <NavLink className="text-white" to="/contact">
+                    <NavLink
+                      className="text-white d-flex align-items-center"
+                      to="/contact"
+                    >
+                      <MdConnectWithoutContact />
                       Contact
                     </NavLink>
                   </div>
