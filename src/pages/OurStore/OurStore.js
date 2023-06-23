@@ -4,6 +4,7 @@ import Meta from "../../components/Meta/Meta";
 import { Rating } from "@mui/material";
 import ProductCard from "../../components/ProductCard/ProductCard";
 import Color from "../../components/Color/Color";
+import Container from "../../components/Container/Container";
 
 const OurStore = () => {
   const [grid, setGrid] = useState(3);
@@ -12,7 +13,7 @@ const OurStore = () => {
     <>
       <Meta title={"Our Store"} />
       <BreadCrumb title="Our Store" />
-      <div className="store-wrapper home-wrapper-2 py-4">
+      <Container class1="store-wrapper home-wrapper-2 py-4">
         <div className="container-xxl">
           <div className="row">
             <div className="col-3">
@@ -218,11 +219,14 @@ const OurStore = () => {
                     <p className="mb-0 d-block" style={{ width: "100px" }}>
                       Sort By:
                     </p>
-                    <select className="form-control form-select" name="" id="">
+                    <select
+                      className="form-control form-select"
+                      defaultValue={"DEFAULT"}
+                      name=""
+                      id=""
+                    >
                       <option value="manual">Featured</option>
-                      <option value="best-selling" selected="selected">
-                        Best selling
-                      </option>
+                      <option value="best-selling">Best selling</option>
                       <option value="title-ascending">
                         Alphabestically, A-Z
                       </option>
@@ -290,7 +294,7 @@ const OurStore = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </>
   );
 };
