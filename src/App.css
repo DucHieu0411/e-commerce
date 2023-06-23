@@ -639,7 +639,6 @@ footer .input-group-text {
 .auth-card a {
   font-size: 14px;
   font-weight: 400;
-  color: #1c1c1b;
 }
 
 .signup {
@@ -784,4 +783,36 @@ footer .input-group-text {
 .main-product-details a {
   font-size: 14px;
   color: #777777;
+}
+
+/* Cart Page */
+.cart-header,
+.cart-data {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.cart-header h4 {
+  font-size: 14px;
+  color: #777777;
+}
+
+.cart-col-1 {
+  width: 40%;
+}
+
+.cart-col-2 {
+  width: 15%;
+}
+
+.cart-col-3 {
+  width: 15%;
+}
+
+.cart-col-4 {
+  width: 10%;
+}
+
+.cart-data h5.price {
+  font-size: 14px;
+  color: #1c1c1b;
 }
