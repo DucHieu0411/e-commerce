@@ -816,3 +816,14 @@ footer .input-group-text {
   font-size: 14px;
   color: #1c1c1b;
 }
+
+/* Shipping Page */
+.total {
+  font-size: 14px;
+  color: #1c1c1b;
+}
+
+.total-price {
+  font-size: 16px;
+  color: #777777;
+}

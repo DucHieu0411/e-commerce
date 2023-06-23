@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import Meta from "../../components/Meta/Meta";
 import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
